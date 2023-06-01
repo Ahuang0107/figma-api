@@ -1,0 +1,11 @@
+### GET me
+GET {{base_url}}/v1/me
+X-Figma-Token: {{figma_token}}
+
+### GET file
+GET {{base_url}}/v1/files/{{file_key}}
+X-Figma-Token: {{figma_token}}
+
+### GET image fills
+GET {{base_url}}/v1/files/{{file_key}}/images
+X-Figma-Token: {{figma_token}}
